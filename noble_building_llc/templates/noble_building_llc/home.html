@@ -1,0 +1,101 @@
+{% extends "noble_building_llc/base.html" %}
+
+{% load static %}
+
+{% block content %}
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+
+    <div class="info d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 data-aos="fade-down">Welcome to <span>Noble Building Contracting</span></h2>
+            <p data-aos="fade-up">NOBLE BUILDING CONTRACTING LLC specialises in designer philosophy with complete solutions required to attain the best in all
+              projects. We have been working with Architects, Designers and different contracting companies keeping in view the deadline and contributing to the best quality and craftsmanship in delivering the project. We do not compromise in quality of work. Our aim is to deliver top class pristine quality.</p>
+            <a data-aos="fade-up" data-aos-delay="200" href="{% static "noble_building_llc/assets/Noble_Building_Contracting_LLC.pdf" %}" target="_blank" class="btn-get-started">Download Brochure</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <div class="carousel-item active" style="background-image: url({% static "noble_building_llc/assets/img/home-page/home-1.jpg" %})"></div>
+      <div class="carousel-item" style="background-image: url({% static "noble_building_llc/assets/img/home-page/home-2.jpg" %})"></div>
+      <div class="carousel-item" style="background-image: url({% static "noble_building_llc/assets/img/home-page/home-3.jpg" %})"></div>
+      <div class="carousel-item" style="background-image: url({% static "noble_building_llc/assets/img/home-page/home-4.jpg" %})"></div>
+      <div class="carousel-item" style="background-image: url({% static "noble_building_llc/assets/img/home-page/home-5.jpg" %})"></div>
+      <div class="carousel-item" style="background-image: url({% static "noble_building_llc/assets/img/home-page/home-6.jpg" %})"></div>
+      <div class="carousel-item" style="background-image: url({% static "noble_building_llc/assets/img/home-page/home-7.jpg" %})"></div>
+
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Services</h2>
+          <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
+        </div>
+
+        <!-- ======= Servie Cards Section ======= -->
+        <section id="services-cards" class="services-cards">
+
+            <div class="row gy-4">
+
+              <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                <ul class="list-unstyled">
+                  <li><i class="bi bi-check2"></i> <span>Refurbishment & Renovation Works</span></li>
+                  <li><i class="bi bi-check2"></i> <span>Installation of Tiles and Marble</span></li>
+                  <li><i class="bi bi-check2"></i> <span>Sanitaryware Fittings and Accessories</span></li>
+                </ul>
+              </div><!-- End feature item-->
+
+              <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                <ul class="list-unstyled">
+                  <li><i class="bi bi-check2"></i> <span>Electrical & Wooden Ceiling works</span></li>
+                  <li><i class="bi bi-check2"></i> <span>Gypsum and all types of Ceiling worksi</span></li>
+                  <li><i class="bi bi-check2"></i> <span>Painting work - Interior and Exterior</span></li>
+                </ul>
+              </div><!-- End feature item-->
+
+              <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                  <ul class="list-unstyled">
+                  <li><i class="bi bi-check2"></i> <span>Glass Partition, Bath & shower panels</span></li>
+                  <li><i class="bi bi-check2"></i> <span>Interlock for outdoors & indoors</span></li>
+                  <li><i class="bi bi-check2"></i> <span>Plumbing, A/C & Wall paper works</span></li>
+                </ul>
+              </div><!-- End feature item-->
+
+              <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                <ul class="list-unstyled">
+                  <li><i class="bi bi-check2"></i> <span>Steam & Sauna installation</span></li>
+                  <li><i class="bi bi-check2"></i> <span>Interior wooden work, doors, cladding</span></li>
+                  <li><i class="bi bi-check2"></i> <span>Wardrobes, kitchen cabinet work</span></li>
+                </ul>
+              </div><!-- End feature item-->
+
+            </div>
+
+        </section><!-- End Servie Cards Section -->
+        
+      </div>
+    </section><!-- End Services Section -->
+
+  </main><!-- End #main -->
+
+{% endblock %}
